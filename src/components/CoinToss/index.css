@@ -1,0 +1,72 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  background-color: #e2a139;
+  background-size: cover;
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-container {
+  background-color: #ffffff;
+  width: 30vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.app-heading {
+  color: #e2a139;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.text {
+  color: #334155;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.button {
+  background-color: #a35200;
+  border: none;
+  color: #e2a139;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.image-sizing {
+  height: 300px;
+  width: 300px;
+}
+.results-container {
+  display: flex;
+  flex-direction: row;
+}
+.count {
+  margin-right: 25px;
+  color: #475569;
+}
+
+@media screen and (max-width: 1200px) {
+  .coin-toss-container {
+    width: 42vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .coin-toss-container {
+    width: 80vw;
+  }
+  .app-container {
+    width: 100vw;
+  }
+}
